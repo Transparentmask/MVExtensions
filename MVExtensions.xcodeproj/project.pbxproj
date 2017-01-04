@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A2087D1E1CCC0600329767 /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2086A1E1CCC0600329767 /* NSArray+Extensions.m */; };
+		49A2087E1E1CCC0600329767 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2086C1E1CCC0600329767 /* NSDate+Extensions.m */; };
+		49A2087F1E1CCC0600329767 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2086E1E1CCC0600329767 /* NSString+Extensions.m */; };
+		49A208801E1CCC0600329767 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208701E1CCC0600329767 /* UIButton+Extensions.m */; };
+		49A208811E1CCC0600329767 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208721E1CCC0600329767 /* UIColor+Extensions.m */; };
+		49A208821E1CCC0600329767 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208741E1CCC0600329767 /* UIImage+Extensions.m */; };
+		49A208831E1CCC0600329767 /* UITextField+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208761E1CCC0600329767 /* UITextField+Extensions.m */; };
+		49A208841E1CCC0600329767 /* UIView+EasyUseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208781E1CCC0600329767 /* UIView+EasyUseGeometry.m */; };
+		49A208851E1CCC0600329767 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2087A1E1CCC0600329767 /* UIView+Extensions.m */; };
+		49A208861E1CCC0600329767 /* UIWindow+EasyUseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A2087C1E1CCC0600329767 /* UIWindow+EasyUseGeometry.m */; };
+		49A208891E1CCFCF00329767 /* GetAllSubClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A208881E1CCFCF00329767 /* GetAllSubClasses.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49A2083D1E1CA7F700329767 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49A2083F1E1CA7F700329767 /* libMVExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMVExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A208691E1CCC0600329767 /* NSArray+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
+		49A2086A1E1CCC0600329767 /* NSArray+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
+		49A2086B1E1CCC0600329767 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		49A2086C1E1CCC0600329767 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		49A2086D1E1CCC0600329767 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		49A2086E1E1CCC0600329767 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		49A2086F1E1CCC0600329767 /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		49A208701E1CCC0600329767 /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		49A208711E1CCC0600329767 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		49A208721E1CCC0600329767 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		49A208731E1CCC0600329767 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		49A208741E1CCC0600329767 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		49A208751E1CCC0600329767 /* UITextField+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extensions.h"; sourceTree = "<group>"; };
+		49A208761E1CCC0600329767 /* UITextField+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extensions.m"; sourceTree = "<group>"; };
+		49A208771E1CCC0600329767 /* UIView+EasyUseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyUseGeometry.h"; sourceTree = "<group>"; };
+		49A208781E1CCC0600329767 /* UIView+EasyUseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyUseGeometry.m"; sourceTree = "<group>"; };
+		49A208791E1CCC0600329767 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		49A2087A1E1CCC0600329767 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		49A2087B1E1CCC0600329767 /* UIWindow+EasyUseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+EasyUseGeometry.h"; sourceTree = "<group>"; };
+		49A2087C1E1CCC0600329767 /* UIWindow+EasyUseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+EasyUseGeometry.m"; sourceTree = "<group>"; };
+		49A208871E1CCFCF00329767 /* GetAllSubClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllSubClasses.h; sourceTree = "<group>"; };
+		49A208881E1CCFCF00329767 /* GetAllSubClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllSubClasses.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A2083C1E1CA7F700329767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A208361E1CA7F700329767 = {
+			isa = PBXGroup;
+			children = (
+				49A208411E1CA7F700329767 /* MVExtensions */,
+				49A208401E1CA7F700329767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A208401E1CA7F700329767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A2083F1E1CA7F700329767 /* libMVExtensions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A208411E1CA7F700329767 /* MVExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				49A208691E1CCC0600329767 /* NSArray+Extensions.h */,
+				49A2086A1E1CCC0600329767 /* NSArray+Extensions.m */,
+				49A2086B1E1CCC0600329767 /* NSDate+Extensions.h */,
+				49A2086C1E1CCC0600329767 /* NSDate+Extensions.m */,
+				49A2086D1E1CCC0600329767 /* NSString+Extensions.h */,
+				49A2086E1E1CCC0600329767 /* NSString+Extensions.m */,
+				49A2086F1E1CCC0600329767 /* UIButton+Extensions.h */,
+				49A208701E1CCC0600329767 /* UIButton+Extensions.m */,
+				49A208711E1CCC0600329767 /* UIColor+Extensions.h */,
+				49A208721E1CCC0600329767 /* UIColor+Extensions.m */,
+				49A208731E1CCC0600329767 /* UIImage+Extensions.h */,
+				49A208741E1CCC0600329767 /* UIImage+Extensions.m */,
+				49A208751E1CCC0600329767 /* UITextField+Extensions.h */,
+				49A208761E1CCC0600329767 /* UITextField+Extensions.m */,
+				49A208771E1CCC0600329767 /* UIView+EasyUseGeometry.h */,
+				49A208781E1CCC0600329767 /* UIView+EasyUseGeometry.m */,
+				49A208791E1CCC0600329767 /* UIView+Extensions.h */,
+				49A2087A1E1CCC0600329767 /* UIView+Extensions.m */,
+				49A2087B1E1CCC0600329767 /* UIWindow+EasyUseGeometry.h */,
+				49A2087C1E1CCC0600329767 /* UIWindow+EasyUseGeometry.m */,
+				49A208871E1CCFCF00329767 /* GetAllSubClasses.h */,
+				49A208881E1CCFCF00329767 /* GetAllSubClasses.m */,
+			);
+			path = MVExtensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A2083E1E1CA7F700329767 /* MVExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A208481E1CA7F700329767 /* Build configuration list for PBXNativeTarget "MVExtensions" */;
+			buildPhases = (
+				49A2083B1E1CA7F700329767 /* Sources */,
+				49A2083C1E1CA7F700329767 /* Frameworks */,
+				49A2083D1E1CA7F700329767 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVExtensions;
+			productName = MVExtensions;
+			productReference = 49A2083F1E1CA7F700329767 /* libMVExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A208371E1CA7F700329767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Marchell;
+				TargetAttributes = {
+					49A2083E1E1CA7F700329767 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8QAHRJBX2K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49A2083A1E1CA7F700329767 /* Build configuration list for PBXProject "MVExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49A208361E1CA7F700329767;
+			productRefGroup = 49A208401E1CA7F700329767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A2083E1E1CA7F700329767 /* MVExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A2083B1E1CA7F700329767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A2087F1E1CCC0600329767 /* NSString+Extensions.m in Sources */,
+				49A208821E1CCC0600329767 /* UIImage+Extensions.m in Sources */,
+				49A208891E1CCFCF00329767 /* GetAllSubClasses.m in Sources */,
+				49A208841E1CCC0600329767 /* UIView+EasyUseGeometry.m in Sources */,
+				49A208861E1CCC0600329767 /* UIWindow+EasyUseGeometry.m in Sources */,
+				49A208831E1CCC0600329767 /* UITextField+Extensions.m in Sources */,
+				49A208851E1CCC0600329767 /* UIView+Extensions.m in Sources */,
+				49A208801E1CCC0600329767 /* UIButton+Extensions.m in Sources */,
+				49A2087E1E1CCC0600329767 /* NSDate+Extensions.m in Sources */,
+				49A2087D1E1CCC0600329767 /* NSArray+Extensions.m in Sources */,
+				49A208811E1CCC0600329767 /* UIColor+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49A208461E1CA7F700329767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A208471E1CA7F700329767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A208491E1CA7F700329767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8QAHRJBX2K;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49A2084A1E1CA7F700329767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8QAHRJBX2K;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A2083A1E1CA7F700329767 /* Build configuration list for PBXProject "MVExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A208461E1CA7F700329767 /* Debug */,
+				49A208471E1CA7F700329767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A208481E1CA7F700329767 /* Build configuration list for PBXNativeTarget "MVExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A208491E1CA7F700329767 /* Debug */,
+				49A2084A1E1CA7F700329767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A208371E1CA7F700329767 /* Project object */;
+}

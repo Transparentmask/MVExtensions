@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5BCB4173DCEE0E0355B25521266E577B8AC54A43",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42EE43AB92CEE148580E072AD6830E0D6C8DA636" : 9223372036854775807,
+    "5BCB4173DCEE0E0355B25521266E577B8AC54A43" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CAAE6E23-9585-4400-851F-DB0BF92A1ED3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42EE43AB92CEE148580E072AD6830E0D6C8DA636" : "..\/lngtop_github\/App-iOS-EnergyManager",
+    "5BCB4173DCEE0E0355B25521266E577B8AC54A43" : "MVExtensions\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MVExtensions",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MVExtensions\/MVExtensions.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.lngtop.com:RD-iOS\/EnergyManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42EE43AB92CEE148580E072AD6830E0D6C8DA636"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Transparentmask\/MVExtensions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5BCB4173DCEE0E0355B25521266E577B8AC54A43"
+    }
+  ]
+}
